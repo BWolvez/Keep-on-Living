@@ -1,6 +1,8 @@
 
 Mod information
 =======
+Keep on Living is a mod for Minecraft: 1.21.1 Neoforge 21.1.249.
+
 Keep on Living was made for my personal use.
 
 Keep on Living was inspired by hardcore-lite mods and the likes. Where every time you die, you lose some of your max HP, but unlike the ones before, with this mod prevents you from losing all hearts and potentially bricking the world. 
