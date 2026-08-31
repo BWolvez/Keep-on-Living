@@ -174,7 +174,7 @@ public class LifePenalty {
         if (!event.getEntity().level().isClientSide && event.getEntity() instanceof Player player) {
             ItemStack item = event.getItem();
 
-            if (item.is(Items.ENCHANTED_GOLDEN_APPLE)) {
+            if (item.is(Items._GOLDEN_APPLE)) {
                 PlayerDeathData data = player.getData(PLAYER_DATA);
                 if (data.deathCount > 0) {
                     data.deathCount--;
@@ -185,7 +185,7 @@ public class LifePenalty {
                 if (data.deathCount == 0) {
                     player.level().playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.PLAYER_LEVELUP, SoundSource.PLAYERS, 5.0f, 1.0f);
                 }
-            } else if (item.is(Items.GOLDEN_APPLE)) {
+            } else if (item.is(Items.ENCHANTED_GOLDEN_APPLE)) {
                 PlayerDeathData data = player.getData(PLAYER_DATA);
                 if (data.iframeCooldown > 0) {
                     data.iframeCooldown = 0;
