@@ -174,7 +174,7 @@ public class LifePenalty {
         if (!event.getEntity().level().isClientSide && event.getEntity() instanceof Player player) {
             ItemStack item = event.getItem();
 
-            if (item.is(Items._GOLDEN_APPLE)) {
+            if (item.is(Items.GOLDEN_APPLE)) {
                 PlayerDeathData data = player.getData(PLAYER_DATA);
                 if (data.deathCount > 0) {
                     data.deathCount--;
