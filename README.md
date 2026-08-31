@@ -1,25 +1,17 @@
 
-Installation information
+Mod information
 =======
+Keep on Living was made for my personal use.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Keep on Living was inspired by hardcore-lite mods and the likes. Where every time you die, you lose some of your max HP, but unlike the ones before, with this mod prevents you from losing all hearts and potentially bricking the world. 
+For more casual players who like some punishment for misplay but not too severe.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Grace. It is a period of time where, if you died while having low enough Max HP to hit the (configurable) threshold, you will respawn with some buffs, debuffs, and invulnerability. Hostile mobs will ignore you, letting you get to safety before the time runs out.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Favor. Favor is a one-time secret buff; it prevents death once every 3 days. (configurable)
 
-Mapping Names:
+How to get your hearts back:
 ============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+Golden Apple: will give your heart back by 1.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Enchanted Golden Apple: will give you favor.
